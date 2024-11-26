@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mi primer sitio web</title>
+</head>
+<body>
+    <header>
+        <h1>Santiago F. Marchena B.</h1>
+    </header>
+
+    <main>
+        <button id="button" class="welcome">¡Bienvenida!</button>
+        <section class="about">
+            <h2>Sobre mí:</h2>
+            <p>Amante del aprendizaje, de la música y la tecnología. Ingeniero Mecánico y futuro Desarrollador Web FullStack.</p>
+        </section>
+        <section class="skills">
+            <h2>Habilidades técnicas</h2>
+            <ul>
+                <li>Excel</li>
+                <li>SolidWORKS</li>
+                <li>AutoCAD</li>
+                <li>HTML</li>
+                <li>FluidSIM</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>CSS</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+        <section class="table">
+            <h2>Horario semanal:</h2>
+            <table border="1">
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+                <tr>
+                    <td>18:00 - 22:30</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Inglés - Habilidades</td>
+                    <td>Descanso</td>
+                </tr>               
+            </table>
+        </section>
+        <section class="section-form">
+            <h2>Contacto:</h2>
+            <form id="form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" placeholder="Escriba un mensaje"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contacto: santiago.marchena.ttc.018@unilibre.edu.co</p>
+        <p>GitHub: <a href="https://github.com/santiagomarchenaunilibre" target="_blank">@santiagomarchenaunilibre</a></p>
+        <p>&copy; Santiago Marchena Bootcamp 2024 </p>   
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
